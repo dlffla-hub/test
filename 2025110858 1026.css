@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+section {
+  float: left;
+  width: 33.33%;
+  height: 50%;
+}
+
+
+#one {
+  background-color: #ff6b6b;
+}
+
+#two {
+  background-color: #feca57;
+}
+
+#three {
+  background-color: #1dd1a1;
+}
+
+#four {
+  background-color: #48dbfb;
+}
+
+#five {
+  background-color: #5f27cd;
+}
+
+#six {
+  background-color: #ff9ff3;
+}
+
+@media (max-width: 900px) {
+  section {
+    width: 50%;
+    height: 33.33%;
+  }
+}
+
+@media (max-width: 600px) {
+  section {
+    width: 100%;
+    height: 16.66%;
+  }
+}
